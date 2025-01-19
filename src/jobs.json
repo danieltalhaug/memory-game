@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "title": "Birthday Party Clown",
+        "description": "Bring joy and laughter to kids' birthday parties with balloon animals, magic tricks, and hilarious antics. Must have experience entertaining young children and a colorful clown costume.",
+        "salary": "$100 - $200 per event"
+    },
+    {
+        "id": 2,
+        "title": "Circus Clown Performer",
+        "description": "Join a traveling circus as a key performer in comedy skits, acrobatic stunts, and audience engagement. Requires professional clown training and the ability to work in a team.",
+        "salary": "$30,000 - $40,000 annually"
+    },
+    {
+        "id": 3,
+        "title": "Corporate Event Clown",
+        "description": "Add humor and fun to corporate events and team-building exercises. Looking for a polished clown with a knack for engaging adult audiences.",
+        "salary": "$300 - $500 per event"
+    },
+    {
+        "id": 4,
+        "title": "Hospital Clown",
+        "description": "Provide joy and emotional relief to patients and families in hospitals through light-hearted performances. Experience with therapeutic clowning is a plus.",
+        "salary": "$25 - $35 per hour"
+    },
+    {
+        "id": 5,
+        "title": "Street Performer Clown",
+        "description": "Entertain crowds at public spaces with juggling, mime acts, and improvisational comedy. Must be comfortable performing outdoors and engaging passersby.",
+        "salary": "$50 - $100 per day (tips included)"
+    },
+    {
+        "id": 6,
+        "title": "Theme Park Clown",
+        "description": "Be a part of a theme park's entertainment team with regular performances, meet-and-greets, and parades. Requires high energy and crowd interaction skills.",
+        "salary": "$12 - $18 per hour"
+    },
+    {
+        "id": 7,
+        "title": "Clown Instructor",
+        "description": "Teach aspiring clowns the art of comedy, makeup, and performance techniques. Prior teaching experience and mastery of clowning essentials required.",
+        "salary": "$20 - $30 per hour"
+    },
+    {
+        "id": 8,
+        "title": "Clown for Charity Events",
+        "description": "Spread laughter at charity events, fundraisers, and community gatherings. Must be enthusiastic about volunteering for a good cause.",
+        "salary": "Volunteer with potential for stipends"
+    },
+    {
+        "id": 9,
+        "title": "Clown Emcee",
+        "description": "Host events with humor and flair, guiding audiences through activities and performances. Strong public speaking and comedic timing skills needed.",
+        "salary": "$200 - $400 per event"
+    },
+    {
+        "id": 10,
+        "title": "Party Clown with Special Skills",
+        "description": "Perform at private events with specialized talents such as unicycling, fire-breathing, or advanced balloon art. Must have certifications for special skills if required.",
+        "salary": "$150 - $300 per event"
+    },
+    {
+        "id": 11,
+        "title": "Clown Makeup Artist",
+        "description": "Assist clowns with professional makeup application for performances, ensuring unique and expressive designs. Requires makeup artistry skills and experience with theatrical makeup.",
+        "salary": "$25 - $40 per hour"
+    },
+    {
+        "id": 12,
+        "title": "Clown Balloon Artist",
+        "description": "Specialize in creating intricate balloon sculptures for events, fairs, and parties. Must be proficient in balloon art and comfortable interacting with children.",
+        "salary": "$100 - $250 per event"
+    },
+    {
+        "id": 13,
+        "title": "Holiday Clown Performer",
+        "description": "Spread seasonal cheer as a festive clown at holiday-themed events, from Halloween parties to Christmas markets. Requires a creative costume to match the holiday theme.",
+        "salary": "$150 - $300 per event"
+    },
+    {
+        "id": 14,
+        "title": "Clown Photographer",
+        "description": "Capture professional photos of clowns during performances and behind the scenes for promotional material. Must have photography skills and knowledge of live event settings.",
+        "salary": "$20 - $35 per hour"
+    },
+    {
+        "id": 15,
+        "title": "Clown Puppeteer",
+        "description": "Combine clowning with puppetry to entertain children and families with engaging storytelling and humor. Experience in both puppetry and clowning required.",
+        "salary": "$200 - $400 per event"
+    },
+    {
+        "id": 16,
+        "title": "Parade Clown",
+        "description": "Join parades as a featured clown, performing stunts, engaging with the crowd, and spreading smiles. Must have stamina and parade experience.",
+        "salary": "$15 - $25 per hour"
+    },
+    {
+        "id": 17,
+        "title": "Clown Prankster for TV Shows",
+        "description": "Participate in prank segments for TV shows and online videos, bringing humor to candid camera setups. Requires improvisational comedy skills.",
+        "salary": "$300 - $500 per episode"
+    },
+    {
+        "id": 18,
+        "title": "Clown Costume Designer",
+        "description": "Design and create unique costumes for clowns, ensuring comfort and creativity. Must have experience in costume design and tailoring.",
+        "salary": "$20 - $40 per hour"
+    },
+    {
+        "id": 19,
+        "title": "Animal Clown Trainer",
+        "description": "Work with trained animals to perform in clown acts, focusing on safety and entertainment. Requires experience with animals and comedic timing.",
+        "salary": "$25,000 - $35,000 annually"
+    },
+    {
+        "id": 20,
+        "title": "Clown for Educational Programs",
+        "description": "Teach children through comedy and interactive performances about important topics like bullying, health, and safety. Must be engaging and educationally oriented.",
+        "salary": "$100 - $200 per event"
+    }
+]
+  
