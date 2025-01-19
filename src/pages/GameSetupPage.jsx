@@ -9,6 +9,7 @@ const GameSetupPage = () => {
                     <h2 className="card-title">
                         Lag spill
                     </h2>
+                    <FormGameSetup />
                     <span className="divider" />
                     <footer className="card-actions justify-end">
                         <Button
