@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import { GameContext } from '../contexts/GameContext';
+import GameBoard from '../components/GameBoard';
 
 const GameBoardPage = () => {
     const {
@@ -8,15 +9,17 @@ const GameBoardPage = () => {
         cardAmount,
     } = useContext(GameContext);
 
-    console.log(playerName);
     return (
-        <>
-            <pre>
-                Player: {playerName}<br/>
-                Cards: {cardAmount}<br/>
-                Game type: {gameType.type}<br/>
-            </pre>
-        </>
+        <article className="bg-base-200 h-screen flex justify-center items-center">
+            <div>
+                <pre>
+                    Player: {playerName}<br/>
+                    Cards: {cardAmount}<br/>
+                    Game type: {gameType.type}<br/>
+                </pre>
+                <GameBoard />
+            </div>
+        </article>
     );
 };
 

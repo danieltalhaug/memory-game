@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    /* CSS Pattern from https://css-pattern.com/hearts/ */
+    --pattern-size: 33px; /* control the heart size */
+    --pattern-color-primary: #e7525b;
+    --pattern-color-secondary: #94ebff;
+    --_g: 80%,var(--pattern-color-primary) 25.4%,#0000 26%;
+}
+
+.game-card {
+    width: 240px;
+    height: 240px;
+    perspective: 1200px;
+}
+
+.game-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+
+    &.flipped {
+        transform: rotateY(180deg);
+    }
+}
+
+.game-card-face, .game-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.game-card-face {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+    border: 4px solid var(--pattern-color-primary);
+}
+
+.game-card-back {
+    background:
+        radial-gradient(at 80% var(--_g)),
+        radial-gradient(at 20% var(--_g)),
+        conic-gradient(from -45deg at 50% 41%,var(--pattern-color-primary) 90deg,var(--pattern-color-secondary) 0) 
+        calc(var(--pattern-size)/2) 0;
+    background-size: var(--pattern-size) var(--pattern-size);
+    border: 4px solid var(--pattern-color-primary);
+}
