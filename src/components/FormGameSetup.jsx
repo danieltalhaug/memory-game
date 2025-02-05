@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { GameContext } from '../contexts/GameContext';
 
 const FormGameSetup = () => {
-    const [
+    const {
         playerName,
         setPlayerName,
         gameType,
@@ -11,7 +11,7 @@ const FormGameSetup = () => {
         cardAmount,
         setCardAmount,
         cardAmountOptions,
-    ] = useContext(GameContext);
+    } = useContext(GameContext);
 
     return (
         <form

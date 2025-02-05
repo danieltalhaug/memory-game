@@ -2,16 +2,11 @@ import { useContext } from 'react';
 import { GameContext } from '../contexts/GameContext';
 
 const GameBoardPage = () => {
-    const [
+    const {
         playerName,
-        setPlayerName,
         gameType,
-        setGameType,
-        gameTypeOptions,
         cardAmount,
-        setCardAmount,
-        cardAmountOptions,
-    ] = useContext(GameContext);
+    } = useContext(GameContext);
 
     console.log(playerName);
     return (

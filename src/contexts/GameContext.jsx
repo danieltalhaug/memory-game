@@ -25,7 +25,7 @@ export function GameContextProvider({ children }) {
 
     return (
         <GameContext.Provider
-            value={[playerName, setPlayerName, gameType, setGameType, gameTypeOptions, cardAmount, setCardAmount, cardAmountOptions]}
+            value={{playerName, setPlayerName, gameType, setGameType, gameTypeOptions, cardAmount, setCardAmount, cardAmountOptions}}
         >
             {children}
         </GameContext.Provider>
